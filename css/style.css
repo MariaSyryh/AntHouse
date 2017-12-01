@@ -1,0 +1,135 @@
+.main-block {
+   margin-top: 30px;
+}
+.bio-photo {
+    height: 120px;
+    width: 120px;
+    position: relative;
+    left: 20px;
+    z-index: 1;
+}
+.bio-name {
+   font-size: 16px;
+   font-weight: bold;
+   position: relative;
+   left: 10px;
+}
+.bio-spec {
+    font-size: 11px;
+    color: gray;
+    position: relative;
+    left: 10px;
+}
+.bio-status-col {
+    padding-right: 0px;
+}
+.bio-status {
+    background-color: rgb(255, 251, 200);
+    padding: 8px;
+    padding-right: 0px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    margin-top: 10px;
+    z-index: 0;
+    font-size: 14px;
+    position: relative;
+    left: -13px;
+}
+.progress-comment {
+    position: relative;
+    width: 0;
+    white-space: nowrap;
+    left: 10px;
+    top: 3px;
+}
+.bio-status-line {
+    position: relative;
+    left: 13px;
+}
+.service-count-label {
+    position: relative;
+    top: 10px;
+    left: -8px;
+    text-align: right;
+}
+.service-count {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+}
+.service-all-text, .service-all-count {
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    top: -8px;
+}
+.service-all-count {
+    text-align: right;
+}
+.menu {
+    padding-top: 10px;
+}
+.menu-last-comments {
+    font-weight: bold;
+}
+.comment {
+    margin: 5px
+}
+.comment-header {
+    margin-bottom: 10px;
+}
+.comment-header-name {
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.comment-header-date {
+    margin: 10px 5px 5px 5px;
+    font-size: 10px;
+    color: gray;
+}
+.comment-body {
+    padding: 10px;
+    background-color: rgb(242, 251, 255);
+    border: 1px solid rgb(207, 207, 207);
+    box-shadow: 0 0 3px rgb(207, 207, 207);
+    position: relative;
+}
+.comment-body:after, .comment-body:before {
+	bottom: 100%;
+	left: 30px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.comment-body:after {
+    border-bottom-color: rgb(242, 251, 255);
+    border-left: 0px;
+	border-width: 10px;
+	margin-left: -11px;
+}
+.comment-body:before {
+    border-bottom-color: rgb(207, 207, 207);
+    border-left: 0px;
+	border-width: 12px;
+	margin-left: -12px;
+}
+.new-comment-block {
+    background-color: rgb(242, 242, 242);
+    margin-top: 40px
+}
+.new-comment-form {
+    margin-top: 40px
+}
+.new-comment-input {
+    resize: none;
+}
+.new-comment-send-btn {
+    border-radius: 30px;
+    padding: 10px 60px 10px 60px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
