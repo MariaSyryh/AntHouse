@@ -163,13 +163,17 @@
                 return;
             }
 
+            var month_name = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+
+            var date = new Date();
+
             $("#new-comment-place").append(
             '<div class="row">' +
                 '<div class="col">' +
                     '<div class="container comment">' +
                         '<div class="row comment-header">' +
                             '<div class="comment-header-name">Лилия Семёновна</div>' +
-                            '<div class="comment-header-date">14 октября 2011</div>' +
+                            '<div class="comment-header-date">' + date.getDate() + " " + month_name[date.getMonth()] + " " + date.getFullYear() + '</div>' +
                         '</div>' +
                         '<div class="row comment-body">' + new_comment_val +
                         '</div>' +
