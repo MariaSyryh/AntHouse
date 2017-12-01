@@ -156,8 +156,9 @@
         function send_comment(form)
         {
             var new_comment = $("#new-comment");
+            var new_comment_val = new_comment.val().trim();
 
-            if (new_comment.val() == "")
+            if (new_comment_val == "")
             {
                 return;
             }
@@ -170,7 +171,7 @@
                             '<div class="comment-header-name">Лилия Семёновна</div>' +
                             '<div class="comment-header-date">14 октября 2011</div>' +
                         '</div>' +
-                        '<div class="row comment-body">' + new_comment.val() +
+                        '<div class="row comment-body">' + new_comment_val +
                         '</div>' +
                     '</div>' +
                 '</div>' +
